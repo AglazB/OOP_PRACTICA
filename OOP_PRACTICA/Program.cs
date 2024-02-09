@@ -5,7 +5,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 class HelloWorld
 {
-    static void Main()
+    static void Main( )
     {
         Console.WriteLine("Демонстрация работы с одномерным массивом:");
         Console.WriteLine("Введите длину массива");
