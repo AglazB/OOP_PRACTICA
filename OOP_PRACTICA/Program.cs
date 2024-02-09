@@ -22,7 +22,7 @@ class HelloWorld
         oneDimensionalArray.DeleteDublicates();
         oneDimensionalArray.Print();
         Console.WriteLine();
-        Console.WriteLine("Демонстрация работы с двумерным массивом:");
+        Console.WriteLine("Демонстрация работы с двумерным массивом");
         Console.WriteLine("Введите количество строк массива");
         int firstlength = int.Parse(Console.ReadLine());
         Console.WriteLine("Введите количество столбцов массива:");
