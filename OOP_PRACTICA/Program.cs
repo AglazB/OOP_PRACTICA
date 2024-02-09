@@ -31,7 +31,7 @@ class HelloWorld
         Console.WriteLine("Ваш массив");
         twoDimensionalArray.PrintNormal();
         Console.WriteLine();
-        Console.WriteLine("Ваш массив, выведенный по условию второго пункта");
+        Console.WriteLine("Ваш массив, выведенный по условию второго пункта:");
         twoDimensionalArray.Print();
         Console.WriteLine();
         Console.WriteLine("Демонстрация работы со ступенчатым массивом:");
