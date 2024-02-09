@@ -25,7 +25,7 @@ class HelloWorld
         Console.WriteLine("Демонстрация работы с двумерным массивом:");
         Console.WriteLine("Введите количество строк массива");
         int firstlength = int.Parse(Console.ReadLine());
-        Console.WriteLine("Введите количество столбцов массива");
+        Console.WriteLine("Введите количество столбцов массива:");
         int secondlength = int.Parse(Console.ReadLine());
         TwoDimentionalArray twoDimensionalArray = new TwoDimentionalArray(firstlength, secondlength);
         Console.WriteLine("Ваш массив");
