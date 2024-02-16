@@ -15,37 +15,25 @@ namespace Task_3_1
                 AutoEntry(length);
             }
         }
-        public OneDimentionalArray(int[] array)
-        {
-            Array = array;
-        }
-        public int[] oneDimentionArray
-        {
-            get
-            {
-                return Array;
-            }
-        }
+ 
         private void ManualEntry(int length)
         {
             int n = length;
-            int[] array = new int[n];
+            Array = new int[n];
             for (int i = 0; i < n; i++)
             {
-                array[i] = int.Parse(Console.ReadLine());
+                Array[i] = int.Parse(Console.ReadLine());
             }
-            Array = array;
         }
         private void AutoEntry(int length)
         {
             Random rnd = new Random();
             int n = length;
-            int[] array = new int[n];
+            Array = new int[n];
             for (int i = 0; i < n; i++)
             {
-                array[i] = rnd.Next(-200, 200);
+                Array[i] = rnd.Next(-200, 200);
             }
-            Array = array;
         }
 
         public double AverageValue()
@@ -57,6 +45,19 @@ namespace Task_3_1
             }
             return summa / Array.Length;
 
+        }
+        public int GetElement(int i)
+        {
+            return Array[i];
+        }
+        public int GetLength()
+        {
+            return Array.Length;
+        }
+        public int SetValue(int i, int x, int y)
+        {
+            Array[i] = x * y;
+            return Array[i];
         }
         public void DeleteElementsGreate100()
         {

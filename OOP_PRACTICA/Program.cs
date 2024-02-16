@@ -44,7 +44,7 @@ class HelloWorld
         Console.WriteLine("Среднее значение в массиве");
         jaggedlArray.AverageValueWholeArray();
         Console.WriteLine("Средние значения в массивах");
-        jaggedlArray.AverageValue();
+        jaggedlArray.AverageValues();
         Console.WriteLine("Массив с изменёнными чётными по значению элементами");
         jaggedlArray.ChangeValues();
         jaggedlArray.Print();
